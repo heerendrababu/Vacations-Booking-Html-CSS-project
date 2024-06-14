@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: calibri, sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    color: gray;
+}
+p{
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+
+}
+.button
+{
+    background-color: gray;
+    padding: 10px 25px;
+    border: none;
+    margin: 10px;
+    color: whitesmoke;
+}
+.home-section
+{
+    padding: 100px;
+}
+header{
+    background: linear-gradient(45deg,teal,lightseagreen);
+    padding: 25px;
+}
+header h1{
+    color: whitesmoke;
+}
+nav{
+    background-color: lightgray;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+}
+nav a:hover{
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+.our-packages figure{
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;  /*  which will give space from pic to pic */
+}
+.our-packages figure img{
+    width: 100%;
+}
+.our-packages figure figcaption{
+    font-size: 30px;
+}
+.our-packages figure p{
+    font-size: 18px;
+}
+.main-footer
+{
+    background-color: gray;
+    color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px; /* which will give space to above data and this data */
+}
